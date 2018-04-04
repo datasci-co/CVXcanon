@@ -22,7 +22,7 @@ setup(
     setup_requires=['numpy'],
     author='Jack Zhu, John Miller, Paul Quigley',
     author_email='jackzhu@stanford.edu, millerjp@stanford.edu, piq93@stanford.edu',
-    ext_modules=get_ext()
+    ext_modules=get_ext(),
     package_dir={'': 'src/python'},
     py_modules=['canonInterface', 'CVXcanon', '_version__'],
     description='A low-level library to perform the matrix building step in cvxpy, a convex optimization modeling software.',
